@@ -1,0 +1,503 @@
+body{
+
+  margin: 0;
+  overflow-x: hidden;
+
+}
+.top{
+  width:100%;
+  margin:0;
+  padding: 0;
+  border:0;
+  position: relative;
+  height:50rem;
+ /* background-image:url("D:\\html\\mount2.jpg");
+  background-repeat:repeat-x;*/
+}
+.middle{
+  width:100%;
+  padding: 0;
+  border:0;
+  position: relative;
+  top:40rem;
+  height:122rem;
+  margin: 0 auto;
+}
+#logo{
+  float: left;
+
+}
+#logo h1{
+  margin: 0 0 0 10px;
+}
+#logo a{
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: 'Pacifico', cursive;
+  color:white;
+}
+#nav{
+
+  float:right;
+
+}
+#nav ul{
+  list-style: none;
+  display: flex;
+position: relative;
+  margin: 22px 0 0 0;
+  right: 10%;
+
+
+
+}
+#nav ul a{text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Noto Sans SC', sans-serif;
+  color:white;
+
+
+}
+#nav li{
+
+  list-style: none;
+  margin: 0 3px 0 10px;
+}
+#hr1{
+  position: absolute;
+  top: 45.625rem;
+  color: #79bac1;
+  border-style: dotted none none none;
+  border-width: 13px;
+  width: 10%;
+  display: inline;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  left:45.5%;
+}
+
+#img1{
+  height:800px;
+  width:35%;
+  position:absolute;
+  display:inline;
+  z-index: -1;
+}
+#img2{
+  height:800px;
+  width:31%;
+  position:absolute;
+  display:inline;
+  left:33%;
+  z-index: -1;
+}
+#img3{
+  height:800px;
+  width:37.8%;
+  position:absolute;
+  display:inline;
+  left:62.2%;
+  z-index: -1;
+}
+#t1{
+  top: 75px;
+  font-family: 'Pacifico', cursive;
+  font-size: 2.7rem;
+  color:white;
+  display:block;
+  text-align: center;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+#t2{
+  top:70px;
+  font-size: 2.3rem;
+  font-family: 'Noto Sans SC', sans-serif;
+  color:white;
+  display:block;
+  text-align: center;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+#t3{
+  font-size: 4rem;
+  font-family: 'Dancing Script', cursive;
+  color:#2a7886;
+  display:block;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+.middle1{
+  width:100%;
+  margin:0 auto;
+  padding: 0;
+  border:0;
+  position: relative;
+  top:0.5rem;
+  height:28rem;
+}
+#img4{
+  float: none;
+  height:18rem;
+  width:18rem;
+  position:relative;
+  display:block;
+  margin: 0 auto;
+  left:-30rem;
+  top:7rem;
+}
+#t4{
+  font-size: 3rem;
+  font-family: 'Noto Sans SC', sans-serif;
+  color:#2a7886;
+  display:block;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  float:none;
+  left:-8.5rem;
+  top:-12rem;
+}
+#p1{
+  font-size: 1.5rem;
+  font-family: 'EB Garamond', serif;
+  color:#2a7886;
+  display:block;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  float:none;
+  left:4rem;
+  top:-10rem;
+}
+.middle2{
+  width:100%;
+  margin:0;
+  padding: 0;
+  border:0;
+  position: relative;
+  margin: 0 auto;
+  height:30rem;
+}
+#img5{
+  float: none;
+  height:18rem;
+  width:18rem;
+  position:relative;
+  display:block;
+  margin: 0 auto;
+  right:-28rem;
+  top:7rem;
+}
+#t5{
+
+  font-size: 3rem;
+  font-family: 'Noto Sans SC', sans-serif;
+  color:#2a7886;
+  display:block;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  float:none;
+  right:-8.5rem;
+  top:-12rem;
+}
+#p2{
+  font-size: 1.5rem;
+  font-family: 'EB Garamond', serif;
+  color:#2a7886;
+  display:block;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  float:none;
+  right:4rem;
+  top:-10rem;
+}
+#hr2{
+  position: absolute;
+  top: 61rem;
+  color: #79bac1;
+  border-style: dotted none none none;
+  border-width: 13px;
+  width: 10%;
+  display: inline;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  left:45.5%
+}
+.middle3{
+  width:100%;
+  margin:0;
+  padding: 0;
+  border:0;
+  position: relative;
+  margin: 0 auto;
+  height:60rem;
+}
+
+#messi{
+  float: none;
+  height:18rem;
+  width:18rem;
+  position:relative;
+  display:block;
+  margin: 0 auto;
+  right:-30rem;
+  top:7rem;
+}
+#messi:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+#bike{
+  float: none;
+  height:18rem;
+  width:18rem;
+  position:relative;
+  display:block;
+  margin: 0 auto;
+  left:-30rem;
+  top:-11rem;
+}
+#bike:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+#cook{
+  float: none;
+  height:18rem;
+  width:18rem;
+  position:relative;
+  display:block;
+  margin: 0 auto;
+  top:-29rem
+}
+#cook:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+#dog{
+  float: none;
+  height:18rem;
+  width:18rem;
+  position:relative;
+  display:block;
+  margin: 0 auto;
+  left:-16rem;
+  top:-22rem;
+}
+#dog:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+#game{
+  float: none;
+  height:18rem;
+  width:18rem;
+  position:relative;
+  display:block;
+  margin: 0 auto;
+  left:16rem;
+  top:-40rem;
+}
+#game:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+#hr3{
+  position: absolute;
+  top: 120rem;
+  color: #79bac1;
+  border-style: dotted none none none;
+  border-width: 13px;
+  width: 10%;
+  display: inline;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  left:45.5%
+}
+.bottom{
+  background-color: #75daad;
+  width:100%;
+  padding: 0;
+  border:0;
+  position: relative;
+  margin: 0 auto;
+  height:12rem;
+  top:40rem;
+}
+#insta{
+  display: block;
+  float:none;
+  height:3rem;
+  width:3rem;
+  margin:0 auto;
+  position: relative;
+  left:5.4rem;
+  top:3.8rem;
+}
+#insta:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+#link{
+  display: block;
+  float:none;
+  height:2.6rem;
+  width:2.6rem;
+  margin:0 auto;
+  position: relative;
+  left:0.3rem;
+  top:1rem;
+}
+#link:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+#fb{
+  display: block;
+  float:none;
+  height:2.6rem;
+  width:2.6rem;
+  margin:0 auto;
+  position: relative;
+  left:-5rem;
+  top:-1.6rem;
+}
+#fb:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+#p3{
+  font-size: 1.5rem;
+  font-family: 'EB Garamond', serif;
+  color:#1b262c;
+  display:block;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  float:none;
+  right:0rem;
+  top:0rem;
+}
+@media only screen and (max-width: 600px) {
+  body {
+
+    background-color: lightblue;
+
+  }
+  #logo ,#nav,#nav ul,#t1,#t2,.middle,#t3,#hr1,#hr1,#hr3,.middle1,#t4,#p1,#img5,#t5,#p2,
+  .middle2,#img4,#messi,#bike,#cook,#dog,#game,.middle3,.bottom{
+    float:none;
+    display: block;
+    position:relative;
+    text-align: center;
+    right: 0%;
+    left:0%;
+    top:0%;
+    bottom:0%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width:100%;
+    overflow-x: hidden;
+
+  }
+#nav,#nav li{
+
+  margin: 0 0 0 0;
+}
+#logo {
+  padding-top: 5%;
+
+}
+#logo a{
+  font-size: 3.5rem;
+}
+#nav ul a{
+font-size: 1.5rem;
+
+}
+#hh1{
+  padding-top: 85%;
+}
+#t1,#t2{
+color:#2a7886;
+}
+#hr1,#hr2,#hr3{
+  border-style: none none none none;
+}
+.middle{
+  padding-top:15%;
+}
+.middle1{
+  display: block;
+  padding-bottom: 40%;
+}
+.middle2{
+display: block;
+padding-bottom:40%;
+}
+#img4{
+  padding-top: 15%;
+  height: 75%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#img5{
+
+  height: 75%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#p1,#p2{
+  display: block;
+  text-align:center;
+
+}
+.middle2{
+  display: block;
+  padding-bottom: 10%;
+}
+.middle3{
+  display: absolute
+  padding-bottom: 180%;
+}
+#messi,#bike,#cook,#dog,#game{
+  padding-top: 15%;
+  height: 33%;
+  width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+}
+.bottom{
+display: block;
+
+
+}
+
+}
+
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Noto Sans SC', sans-serif;
+font-family: 'EB Garamond', serif;*/
